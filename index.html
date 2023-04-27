@@ -9,54 +9,54 @@
         body {
             font-family: Inter;
             margin: 0px;
-            width: 100%;
-            height: 100vh;
             background-image: url("https://images.pexels.com/photos/296234/pexels-photo-296234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-            background-size: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
         div {
-            display: grid;
-            place-items: center;
-            padding-top: 80px;
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         h1 {
-            font-size: 88px;
-            grid-row: inherit;
-            border: 4px solid black;
-            border-radius: 20px;
-            box-sizing: border-box;
-            padding: 40px 40px 40px 40px;
-            background-color: #F7F9F9;
+            font-size: 76px;
+            text-align: center;
         }
         footer {
-            position: absolute;
-            bottom: 10px;
+            width: 100%;
+            height: 10vh;
             display: flex;
-            font-size: 20px;
-            left: 10px;
-
+            align-items: center;
+            font-size: 18px;
+            font-weight: 700;
         }
         a {
-            display: flex;
-            place-items: center;
-            margin-left: 4px;
-            text-decoration: none;
-            color: black;
-            font-weight: 700;
-            padding-top: 4px;
-
-
+            color:black;
+            margin-left: 8px;
         }
-
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 40px;
+            }
+            footer {
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 <body>
     <div>
-        <h1>🚧🚧Work in progress!🚧🚧</h1>
-        <footer>
-            <h2>GitHub:</h2>
-            <a href="https://github.com/ginogiorgi">https://github.com/ginogiorgi</a>
-        </footer>  
-    </div>  
+        <h1>🚧🚧</h1>
+        <h1>Work in progress!</h1>
+        <h1>🚧🚧</h1>
+    </div>
+    <footer>
+        <h2>GitHub:</h2>
+        <a href="https://github.com/ginogiorgi">https://github.com/ginogiorgi</a>
+    </footer>    
 </body>
 </html>
